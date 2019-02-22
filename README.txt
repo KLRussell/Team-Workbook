@@ -30,6 +30,6 @@ Server. Currently, this project is on-going and is incomplete. The most up to da
 GitHub website. These files should be placed in the 03_Source_Code folder.
 
 To use this project in its entirety, you will need to fill in the necessary variables in Vacuum_Settings.xml and ensure that the tables
-exist in your SQL Server database with data.
+exist in your SQL Server database with data. Additionally, you will need to point the SourceDir variable within the CAT_Workbook.xlsm in Main module to the CAT_Operations directory. It should be the parent directory of the 03_Source_Code directoy.
 
 Please see the Updates_Flowchart.jpg to see how this system process updates.
